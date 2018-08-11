@@ -33,7 +33,7 @@ class fastScanner {
 	}
 	
 	//driver function
-	public static void main(string args[]) {
+	public static void main(String args[]) {
 		FastScanner in = new FastScanner(System.in);
 		int a;
 		a=in.nextInt();
