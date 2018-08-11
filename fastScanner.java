@@ -3,7 +3,6 @@ import java.io.*;
 
 class fastScanner {
 
-	//fastscanner
 	static class FastScanner {
 		BufferedReader br;
 		StringTokenizer st;
