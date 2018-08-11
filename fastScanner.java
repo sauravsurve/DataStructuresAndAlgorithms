@@ -2,11 +2,11 @@ import java.util.*;
 import java.io.*;
 
 class fastScanner {
-	
+
 	static class FastScanner {
 		BufferedReader br;
 		StringTokenizer st;
-		
+
 		FastScanner(InputStream stream) {
 			try {
 				br = new BufferedReader(new InputStreamReader(stream));
@@ -31,7 +31,7 @@ class fastScanner {
 		}
 
 	}
-	
+
 	//driver function
 	public static void main(String args[]) {
 		FastScanner in = new FastScanner(System.in);
@@ -39,4 +39,5 @@ class fastScanner {
 		a=in.nextInt();
 		System.out.println(a);
 	}
+	//hi from github in  atom
 }
