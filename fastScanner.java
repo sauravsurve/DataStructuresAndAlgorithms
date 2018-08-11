@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 
 class fastScanner {
+	
 	static class FastScanner {
 		BufferedReader br;
 		StringTokenizer st;
@@ -29,5 +30,13 @@ class fastScanner {
 			return Integer.parseInt(next());
 		}
 
+	}
+	
+	//driver function
+	public static void main(string args[]) {
+		FastScanner in = new FastScanner(System.in);
+		int a;
+		a=in.nextInt();
+		System.out.println(a);
 	}
 }
