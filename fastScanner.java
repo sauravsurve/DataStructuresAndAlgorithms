@@ -35,9 +35,10 @@ class fastScanner {
 	//driver function
 	public static void main(String args[]) {
 		FastScanner in = new FastScanner(System.in);
-		int a;
+		int a,b;
 		a=in.nextInt();
-		System.out.println(a);
+		b=in.nextInt();
+		//print sum of a and b
+		System.out.println(a+b);
 	}
-	//hi from github in  atom
 }
